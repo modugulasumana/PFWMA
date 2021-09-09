@@ -43,8 +43,14 @@ body {
   background-size: 528px 68px;
 }
 
-#notifications-icon {
-  width: 25px;
+#notification-icon img{
+    height: 25px;
+    width: 18px;
+}
+
+#user-icon img{
+  height: 42px;
+  margin-left: -10px;
 }
 
 #menu-icon:hover {
@@ -75,9 +81,10 @@ body {
   flex-wrap: wrap;
 }
 
-.main-content img {
-  width: 272px;
-  height: 92px;
+#tabs img{
+  height: 200px;
+  width: 500px;
+  margin-top: 10px;
 }
 
 #search-bar {
